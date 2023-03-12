@@ -19,7 +19,7 @@ class TestNewThread extends Thread {
     }
 }
 
-public class ThreadExtendExample189 {
+public class W189ThreadExtendExample {
     public static void main(String[] args) {
         TestNewThread thread1 = new TestNewThread("PIERWSZY", 1000);
         thread1.start();

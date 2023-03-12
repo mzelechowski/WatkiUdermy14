@@ -1,4 +1,4 @@
-public class AnonymousRunnableExample191 {
+public class W191AnonymousRunnableExample {
     public static void main(String[] args) {
         Thread thread = new Thread(new Runnable() {
             @Override

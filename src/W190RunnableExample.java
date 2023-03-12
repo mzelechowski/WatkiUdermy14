@@ -40,7 +40,7 @@ class RunnableClass2 extends RunnableClass implements Runnable{
     }
 }
 
-public class RunnableExample190 {
+public class W190RunnableExample {
     public static void main(String[] args) {
         RunnableClass run1 = new RunnableClass("WATEK1", 1000);
         Thread thread1 = new Thread(run1, run1.getName());
